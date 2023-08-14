@@ -1,0 +1,13 @@
+time1 = int(input("quantos gols o time um fez? "))
+time2 = int(input("quantos gols o time dois fez? "))
+
+if time1 < time2:
+    diferenca = (time2 - time1)
+    print (f"time dois venceu com {diferenca} gols de diferença")
+    
+if time2 < time1:
+    diferenca = (time1 - time2)
+    print (f"time um venceu com {diferenca} gols de diferença")
+    
+if time1 == time2:
+    print ("empate")
